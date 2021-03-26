@@ -9,12 +9,12 @@ document.getElementById('button').addEventListener('click', calculate)
 // Determines what the function does when activated.
 function calculate () {
   // Takes the value of the diameter input box and stores it as an integer.
-  diameter = document.getElementById('D').value
+  diameter = document.getElementById('d').value
   diameter = parseInt(diameter)
   // Uses the formula to calculate the area and displays it on the screen.
   area = Math.PI * ((diameter / 2) * (diameter / 2))
-  document.getElementById('areaAnswer').innerHTML = area
+  document.getElementById('areaanswer').innerHTML = area
   // Uses the formula to calculate the circumference and displays it on the screen.
   circumference = 2 * Math.PI * (diameter / 2)
-  document.getElementById('circumferenceAnswer').innerHTML = circumference
+  document.getElementById('circumferenceanswer').innerHTML = circumference
 }
