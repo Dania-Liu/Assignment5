@@ -1,0 +1,46 @@
+#background {
+  background-color: darkseagreen;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#heading {
+  text-align: center;
+  color:aliceblue;
+  background-color: cornflowerblue;
+  font-size: 350%;
+  text-shadow: 2px 2px 3px aqua;
+}
+
+.text {
+  color: aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#circle {
+  width: 15%;
+  height: 15;
+  margin-left: 28%;
+}
+
+#area {
+  width: 15%;
+  height: 15%;
+  float: left;
+}
+
+#circumference {
+  width: 15%;
+  height: 15%;
+  float: right;
+}
+
+#center {
+  text-align: center;
+}
+
+#answers {
+  background-color: aliceblue;
+  color: cornflowerblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 150%;
+}
